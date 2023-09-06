@@ -1,0 +1,14 @@
+.RegisterDiv
+{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 0 0 0;
+    align-items: center;
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: url("https://source.unsplash.com/fSfgZCofQz0");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: none;
+}

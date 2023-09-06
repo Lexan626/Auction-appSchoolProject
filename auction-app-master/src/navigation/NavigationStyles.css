@@ -1,0 +1,35 @@
+
+
+.navigation {
+    display: flex;
+    background-color: rgba(200, 33, 33, 0);
+    min-width: 100%;
+    min-height: 3rem;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    
+}
+    .nav-list a {
+        text-decoration: none;
+    }
+
+    .nav-list a:visited
+    {
+        color: white;
+    }
+
+.nav-item{
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+
+}

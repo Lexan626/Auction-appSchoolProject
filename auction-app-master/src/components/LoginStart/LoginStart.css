@@ -1,0 +1,81 @@
+.div-register-form
+{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    border: 1px solid black;
+    padding:1.5rem;
+    box-shadow: 0 2px 5px 0 rgb(0, 0, 0, 1);
+    min-height: 300px;
+}
+.headerTitle{
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    padding-bottom: 1rem;
+    margin: 0;
+    font-size: 1.3rem;
+  }
+.labels
+{
+    text-align: center;
+    padding-bottom: 0.5rem;
+    color: rgba(24 24 24 / 56%);
+}
+.inputs
+{
+    text-align: center;
+    width: 80%;
+    box-sizing: border-box;
+    border: none;
+    font-size: 1.3rem;
+    padding-bottom: 0.9rem;
+    margin-bottom: 1rem;
+    box-shadow: inset 0px -3px 0px 0px rgba(187, 187, 187, 0.884);
+    transition: box-shadow 0.2s ease-in;
+}
+.inputs:focus{
+    box-shadow: inset 0px -3px 0px 0px rgba(34,193,195,0.7);
+    outline: none;
+ }
+ .inputs::-webkit-input-placeholder{
+    opacity: 1;
+    transition: opacity 0.25s ease-out;
+  }
+.inputs:hover::-webkit-input-placeholder,
+.inputs:focus::-webkit-input-placeholder{
+   opacity: 0;
+}
+   
+.knappis{    
+  border-radius: 25px;
+  margin: 10px;
+  width: 80%;
+  height: 40px;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 700;
+  background: rgb(34,193,195);
+  background: linear-gradient(90deg, rgb(16, 73, 74) 0%,     rgb(68, 50, 13) 100%);
+  border: 0px;
+  cursor: pointer;
+  transition: opacity 0.25s ease-out;
+}
+.knappi:hover{
+    opacity: 0.8;
+  }
+
+#Register {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'open sans', sans-serif;
+}
+
+

@@ -1,0 +1,13 @@
+.search-result {
+    display: grid;
+    max-width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+@media(max-width: 70em) {
+    .search-result {
+        grid-template-columns: 1fr;
+    }
+}
